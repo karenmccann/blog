@@ -1,0 +1,198 @@
+/*******
+BASE STYLES
+*******/
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f0efef;
+}
+
+img {
+	max-width: 100%;
+}
+
+.ir {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+p {
+	color: #888888;
+	font-family: 'open-sans', sans-serif;
+	font-size: 20px;
+	font-weight: lighter;
+	text-decoration: none;
+
+}
+
+/*******
+HEADER
+*******/
+
+header {
+	background-color: #033048;
+	height: 100px;
+	padding: 20px 10px;
+}
+	
+h1 {
+	font-size: 48px;
+	color: white;
+	text-align: left;
+	padding-left: 20px;
+	margin-top: 20px;
+	margin-left: 40px;
+	float: left;
+	margin-bottom: 20px;
+}
+/****** CLEAR FIX ********/
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+nav {
+	margin-top: 50px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+
+}
+
+.navigation {
+	float: right;
+	display: inline;
+	color: #f9e42e;
+	text-decoration: none;
+	padding-right: 20px;
+}
+
+a:last-child {
+	padding: 0;
+}
+
+a:hover{
+	color: white;
+}
+/*************
+ARTICLE
+*************/
+h2 { 
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;
+	}
+
+article {
+	clear: both;
+	float: left;
+	width: 66%;
+	border-left: 4%;
+}
+
+.button{
+ float: right;
+ color: #043049 ;
+ font-weight: 200;
+}
+.button:hover{
+ color: #f9e42e ;
+}
+/**********
+SIDE BAR
+**********/
+
+aside {
+	float: right;
+	width: 30%;
+}
+
+
+h3 {
+	font-family: 'open-sans', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #033048;
+}
+.categories {
+	list-style: none;
+	color: #888888;
+	font-family: 'open-sans', sans-serif;
+	font-size: 20px;
+	font-weight: lighter;
+	text-decoration: none;
+}
+
+.learn {
+	font-family: 'open-sans', sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #033048;
+	text-decoration: none;
+}
+
+.learn:hover {
+	color: white;
+}
+
+
+
+/************
+FOOTER
+************/
+.signupButton {
+ font-size: 18px;
+ font-weight: 800;
+ background-color: #072f48 ;
+ color: white;
+ text-align: center;
+ width: 150px;
+ height: 30px;
+ border-radius: 3px;
+ display: block;
+ margin: 0 auto;
+ text-decoration: none;
+}
+
+#signup{
+ clear: both;
+ padding: 10px;
+ background-color: #f9e52c ;
+ position: relative;
+}
+
+h4 {
+	color: yellow;
+	font-size: 40px;
+	text-align: center;
+}
+
+.social-links {
+	  position: center;
+  text-align: center;
+}
+
+footer {
+	clear: both;
+	background-color: #424342;
+}
+
+
+.copy {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+
+
